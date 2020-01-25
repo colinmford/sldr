@@ -6,11 +6,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 
 Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/ for derived annotations.
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="sv"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="SE" script="Latn" source="cldr"/>
 		</special>
 	</identity>
@@ -9193,7 +9193,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 	</listPatterns>
 	<collations>
 		<defaultCollation>reformed</defaultCollation>
-		<collation type="reformed" sil:modified="true">
+		<collation type="reformed" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				&D<<đ<<<Đ<<ð<<<Ð
 				&t<<<þ/h
@@ -9202,7 +9202,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				&[before 1]ǀ<å<<<Å<ä<<<Ä<<æ<<<Æ<<ę<<<Ę<ö<<<Ö<<ø<<<Ø<<ő<<<Ő<<œ<<<Œ<<ô<<<Ô
 			]]></cr>
 		</collation>
-		<collation type="search" sil:modified="true">
+		<collation type="search" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[normalization on]
 				# root search, suppress contractions for Thai, Lao, Tai Viet, New Tai Lue
@@ -9335,7 +9335,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				&[before 1]ǀ<å<<<Å<ä<<<Ä<<æ<<<Æ<<ę<<<Ę<ö<<<Ö<<ø<<<Ø<<ő<<<Ő<<œ<<<Œ<<ô<<<Ô
 			]]></cr>
 		</collation>
-		<collation type="standard" sil:modified="true">
+		<collation type="standard" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				&D<<đ<<<Đ<<ð<<<Ð
 				&t<<<þ/h
@@ -9528,14 +9528,4 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<casingItem type="zone_long">lowercase</casingItem>
 		</casingData>
 	</metadata>
-	<special>
-		<sil:external-resources>
-			<sil:kbd id="basic_kbdfi1" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdfi1/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_euro_latin" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_euro_latin/download/kmp</sil:url>
-			</sil:kbd>
-		</sil:external-resources>
-	</special>
 </ldml>

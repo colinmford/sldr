@@ -14,16 +14,4 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<sil:identity defaultRegion="RS" script="Latn" source="cldr"/>
 		</special>
 	</identity>
-	<localeDisplayNames>
-		<languages>
-			<language type="de_AT">↑↑↑</language>
-			<language type="en_AU">↑↑↑</language>
-			<language type="en_CA">↑↑↑</language>
-			<language type="es_419">↑↑↑</language>
-			<language type="es_MX">↑↑↑</language>
-			<language type="fr_CA">↑↑↑</language>
-			<language type="fr_CH">↑↑↑</language>
-			<language type="pt_BR">↑↑↑</language>
-		</languages>
-	</localeDisplayNames>
 </ldml>

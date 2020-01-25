@@ -4,11 +4,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="chr"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="US" script="Cher" source="cldr"/>
 		</special>
 	</identity>
@@ -6856,7 +6856,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 	</listPatterns>
 	<!-- The root collation order is valid for this language. Just move the native script first. -->
 	<collations>
-		<collation type="standard" sil:modified="true">
+		<collation type="standard" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[reorder Cher]
 			]]></cr>
@@ -7036,19 +7036,13 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<featureName type="tnum">ᏚᏓᏅᏛ ᏗᏎᏍᏗ</featureName>
 		<featureName type="zero">ᎠᎦᎵᏓ ᎧᏂᎩᏗ</featureName>
 	</typographicNames>
-	<special>
+	<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 		<sil:external-resources>
 			<sil:fontrole type="default">
 				<sil:font isGraphite="false" name="FreeFont">
 					<sil:url>https://wirl.api.sil.org/FreeFont</sil:url>
 				</sil:font>
 			</sil:fontrole>
-			<sil:kbd id="basic_kbdcher" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdcher/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_cherokee_nation" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_cherokee_nation/download/kmp</sil:url>
-			</sil:kbd>
 		</sil:external-resources>
 	</special>
 </ldml>

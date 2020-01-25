@@ -4,11 +4,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="tk"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="TM" script="Latn" source="cldr"/>
 		</special>
 	</identity>
@@ -6847,7 +6847,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		</listPattern>
 	</listPatterns>
 	<collations>
-		<collation type="standard" sil:modified="true">
+		<collation type="standard" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				&C<ç<<<Ç
 				&E<ä<<<Ä
@@ -7028,14 +7028,4 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<featureName type="tnum">tabulýar sanlar</featureName>
 		<featureName type="zero">ýapgyt 0</featureName>
 	</typographicNames>
-	<special>
-		<sil:external-resources>
-			<sil:kbd id="basic_kbdturme" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdturme/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_euro_latin" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_euro_latin/download/kmp</sil:url>
-			</sil:kbd>
-		</sil:external-resources>
-	</special>
 </ldml>

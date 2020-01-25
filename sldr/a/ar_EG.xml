@@ -18,14 +18,4 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="da" draft="contributed">الدنماركية</language>
 		</languages>
 	</localeDisplayNames>
-	<numbers>
-		<symbols numberSystem="arab">
-			<decimal draft="contributed">↑↑↑</decimal>
-			<group draft="contributed">↑↑↑</group>
-		</symbols>
-		<symbols numberSystem="latn">
-			<decimal draft="contributed">↑↑↑</decimal>
-			<group draft="contributed">↑↑↑</group>
-		</symbols>
-	</numbers>
 </ldml>

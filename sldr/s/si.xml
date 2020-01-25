@@ -6,11 +6,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 
 Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/ for derived annotations.
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="si"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="LK" script="Sinh" source="cldr"/>
 		</special>
 	</identity>
@@ -7059,7 +7059,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		</listPattern>
 	</listPatterns>
 	<collations>
-		<collation type="dictionary" references="Sri Lanka standard 1134 Part 1 - 2007 edition - Sri Lanka Standards Institution" sil:modified="true">
+		<collation type="dictionary" references="Sri Lanka standard 1134 Part 1 - 2007 edition - Sri Lanka Standards Institution" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[normalization on]
 				[reorder Sinh Deva Beng Guru Gujr Orya Taml Telu Knda Mlym]
@@ -7067,7 +7067,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				&ජ්ඤ<<ඥ
 			]]></cr>
 		</collation>
-		<collation type="standard" references="Sri Lanka standard 1134 Part 1 - 2007 edition - Sri Lanka Standards Institution" sil:modified="true">
+		<collation type="standard" references="Sri Lanka standard 1134 Part 1 - 2007 edition - Sri Lanka Standards Institution" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[normalization on]
 				[reorder Sinh Deva Beng Guru Gujr Orya Taml Telu Knda Mlym]
@@ -7250,11 +7250,4 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		<featureName type="tnum">වගු අංක</featureName>
 		<featureName type="zero">කපහරු බිංදු</featureName>
 	</typographicNames>
-	<special>
-		<sil:external-resources>
-			<sil:kbd id="kbdsn1" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/kbdsn1/download/kmp</sil:url>
-			</sil:kbd>
-		</sil:external-resources>
-	</special>
 </ldml>

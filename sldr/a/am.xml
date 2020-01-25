@@ -6,11 +6,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 
 Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/ for derived annotations.
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="am"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="ET" script="Ethi" source="cldr"/>
 		</special>
 	</identity>
@@ -7557,7 +7557,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 	</listPatterns>
 	<!-- The root collation order is valid for this language. Just move the native script first. -->
 	<collations>
-		<collation type="standard" sil:modified="true">
+		<collation type="standard" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[reorder Ethi]
 			]]></cr>
@@ -7667,31 +7667,13 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		<characterLabel type="western_asian_scripts">ምእራባዊ ኤስያ ስክሪፕት</characterLabel>
 		<characterLabel type="whitespace">ባዶ ቦታ</characterLabel>
 	</characterLabels>
-	<special>
+	<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 		<sil:external-resources>
 			<sil:fontrole type="default">
 				<sil:font isGraphite="true" name="AbyssinicaSIL">
 					<sil:url>https://wirl.api.sil.org/AbyssinicaSIL</sil:url>
 				</sil:font>
 			</sil:fontrole>
-			<sil:kbd id="SILEthiopic" type="kmp">
-				<sil:url>https://wirl.api.sil.org/SILEthiopic</sil:url>
-			</sil:kbd>
-			<sil:kbd id="gff_amh_7" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/gff_amh_7/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="gff_amh_powerpack_7" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/gff_amh_powerpack_7/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="gff_amharic" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/gff_amharic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_ethiopic" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_ethiopic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_ethiopic_power_g" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_ethiopic_power_g/download/kmp</sil:url>
-			</sil:kbd>
 		</sil:external-resources>
 	</special>
 </ldml>

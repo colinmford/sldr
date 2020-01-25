@@ -13,14 +13,4 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<sil:identity defaultRegion="OM" script="Arab" source="cldr"/>
 		</special>
 	</identity>
-	<numbers>
-		<symbols numberSystem="arab">
-			<decimal draft="contributed">↑↑↑</decimal>
-			<group draft="contributed">↑↑↑</group>
-		</symbols>
-		<symbols numberSystem="latn">
-			<decimal draft="contributed">↑↑↑</decimal>
-			<group draft="contributed">↑↑↑</group>
-		</symbols>
-	</numbers>
 </ldml>

@@ -6,11 +6,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 
 Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/ for derived annotations.
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="gl"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="ES" script="Latn" source="cldr"/>
 		</special>
 	</identity>
@@ -7046,7 +7046,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		</listPattern>
 	</listPatterns>
 	<collations>
-		<collation type="search" sil:modified="true">
+		<collation type="search" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[normalization on]
 				# root search, suppress contractions for Thai, Lao, Tai Viet, New Tai Lue
@@ -7176,7 +7176,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				&N<ñ<<<Ñ
 			]]></cr>
 		</collation>
-		<collation type="standard" sil:modified="true">
+		<collation type="standard" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[import es]
 			]]></cr>
@@ -7367,11 +7367,4 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<casingItem type="zone_long">titlecase</casingItem>
 		</casingData>
 	</metadata>
-	<special>
-		<sil:external-resources>
-			<sil:kbd id="sil_euro_latin" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_euro_latin/download/kmp</sil:url>
-			</sil:kbd>
-		</sil:external-resources>
-	</special>
 </ldml>

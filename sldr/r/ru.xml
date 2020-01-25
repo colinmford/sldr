@@ -6,11 +6,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 
 Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/ for derived annotations.
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="ru"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="RU" script="Cyrl" source="cldr"/>
 		</special>
 	</identity>
@@ -10405,7 +10405,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		</listPattern>
 	</listPatterns>
 	<collations>
-		<collation type="standard" sil:modified="true">
+		<collation type="standard" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[reorder Cyrl]
 				# The root collation already sorts й/Й as a base letter.
@@ -10625,17 +10625,4 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<casingItem type="zone_long">titlecase</casingItem>
 		</casingData>
 	</metadata>
-	<special>
-		<sil:external-resources>
-			<sil:kbd id="basic_kbdru" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdru/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="basic_kbdru1" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdru1/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="basic_kbdrum" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdrum/download/kmp</sil:url>
-			</sil:kbd>
-		</sil:external-resources>
-	</special>
 </ldml>

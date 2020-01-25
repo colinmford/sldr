@@ -6,11 +6,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 
 Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/ for derived annotations.
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="ga"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="IE" script="Latn" source="cldr"/>
 		</special>
 	</identity>
@@ -11259,11 +11259,4 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<casingItem type="zone_short">titlecase</casingItem>
 		</casingData>
 	</metadata>
-	<special>
-		<sil:external-resources>
-			<sil:kbd id="sil_euro_latin" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_euro_latin/download/kmp</sil:url>
-			</sil:kbd>
-		</sil:external-resources>
-	</special>
 </ldml>

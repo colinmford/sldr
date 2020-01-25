@@ -9222,7 +9222,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="concentr-mole">
 				<displayName draft="contributed">モル</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="concentr-percent">
 				<displayName>パーセント</displayName>
@@ -9232,7 +9231,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="concentr-permyriad">
 				<displayName draft="contributed">パーミリアド</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="consumption-mile-per-gallon">
 				<displayName>マイル/ガロン</displayName>
@@ -9331,7 +9329,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="energy-electronvolt">
 				<displayName draft="contributed">電子ボルト</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="energy-foodcalorie">
 				<displayName>cal</displayName>
@@ -9348,11 +9345,9 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="force-newton">
 				<displayName draft="contributed">ニュートン</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="force-pound-force">
 				<displayName draft="contributed">重量ポンド</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="length-astronomical-unit">
 				<displayName>天文単位</displayName>
@@ -9406,7 +9401,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="length-solar-radius">
 				<displayName draft="contributed">太陽半径</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="length-yard">
 				<displayName>ヤード</displayName>
@@ -9416,7 +9410,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="light-solar-luminosity">
 				<displayName draft="contributed">太陽光度</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="mass-carat">
 				<displayName>カラット</displayName>
@@ -9424,11 +9417,9 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="mass-dalton">
 				<displayName draft="contributed">ダルトン</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="mass-earth-mass">
 				<displayName draft="contributed">地球質量</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="mass-gram">
 				<displayName>グラム</displayName>
@@ -9450,7 +9441,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="mass-solar-mass">
 				<displayName draft="contributed">太陽質量</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="mass-stone">
 				<displayName draft="contributed">ストーン</displayName>
@@ -9484,14 +9474,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="pressure-inch-hg">
 				<displayName>水銀柱インチ</displayName>
 			</unit>
-			<unit type="pressure-kilopascal">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="pressure-megapascal">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
 			<unit type="pressure-millibar">
 				<displayName>ミリバール</displayName>
 				<unitPattern count="other">{0} mb</unitPattern>
@@ -9511,18 +9493,15 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="torque-newton-meter">
 				<displayName draft="contributed">ニュートンメートル</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="torque-pound-foot">
 				<displayName draft="contributed">ポンドフィート</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="volume-acre-foot">
 				<displayName>エーカーフィート</displayName>
 			</unit>
 			<unit type="volume-barrel">
 				<displayName draft="contributed">バレル</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="volume-bushel">
 				<displayName draft="contributed">ブッシェル</displayName>
@@ -9620,12 +9599,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<listPatternPart type="end">{0}、または{1}</listPatternPart>
 			<listPatternPart type="middle">{0}、{1}</listPatternPart>
 			<listPatternPart type="start">{0}、{1}</listPatternPart>
-		</listPattern>
-		<listPattern type="standard-narrow">
-			<listPatternPart type="2" draft="contributed">↑↑↑</listPatternPart>
-			<listPatternPart type="end" draft="contributed">↑↑↑</listPatternPart>
-			<listPatternPart type="middle" draft="contributed">↑↑↑</listPatternPart>
-			<listPatternPart type="start" draft="contributed">↑↑↑</listPatternPart>
 		</listPattern>
 		<listPattern type="standard-short">
 			<listPatternPart type="2">{0}、{1}</listPatternPart>

@@ -6,11 +6,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 
 Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/ for derived annotations.
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="lo"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="LA" script="Laoo" source="cldr"/>
 		</special>
 	</identity>
@@ -7998,7 +7998,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 	</listPatterns>
 	<!-- The root collation order is valid for this language. Just move the native script first. -->
 	<collations>
-		<collation type="standard" sil:modified="true">
+		<collation type="standard" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[reorder Laoo]
 			]]></cr>
@@ -8172,20 +8172,4 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<casingItem type="symbol">titlecase</casingItem>
 		</casingData>
 	</metadata>
-	<special>
-		<sil:external-resources>
-			<sil:kbd id="basic_kbdlao" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdlao/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="lao_2008_basic" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/lao_2008_basic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="lao_2008_rapid" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/lao_2008_rapid/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="lao_phonetic" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/lao_phonetic/download/kmp</sil:url>
-			</sil:kbd>
-		</sil:external-resources>
-	</special>
 </ldml>

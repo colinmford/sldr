@@ -4,11 +4,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="sd"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="PK" script="Arab" source="cldr"/>
 		</special>
 	</identity>
@@ -6793,17 +6793,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<featureName type="tnum">ٽيبيولر نمبرز</featureName>
 		<featureName type="zero">سليش ٿيل ذيرو</featureName>
 	</typographicNames>
-	<special>
+	<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 		<sil:external-resources>
 			<sil:font engines="ot" name="Lateef">
 				<sil:url>https://wirl.api.sil.org/LateefReg</sil:url>
 			</sil:font>
-			<sil:kbd id="multi_pak_phonetic" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/multi_pak_phonetic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="rac_sindhi" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/rac_sindhi/download/kmp</sil:url>
-			</sil:kbd>
 		</sil:external-resources>
 	</special>
 </ldml>

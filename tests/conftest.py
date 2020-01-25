@@ -1,4 +1,5 @@
 import pytest
+from _pytest.terminal import TerminalReporter
 import logging
 import sys, os
 from palaso.sldr.ldml import Ldml
@@ -11,6 +12,24 @@ class LdmlFile(object):
         self.path = path
         self.ldml = Ldml(self.path)
         self.dirty = False
+
+@pytest.hookimpl(hookwrapper=True)
+def pytest_sessionfinish(session, exitstatus):
+    tr = session.config.pluginmanager.getplugin("terminalreporter")
+    if session.config.option.tbstyle == "auto":
+        session.config.option.tbstyle = "no"
+    yield
+    results = {}
+    reports = tr.getreports("failed")
+    for rep in reports:
+        if hasattr(rep, 'location'):
+            info = rep.location[2]
+            parts = [s.rstrip("]") for s in info.split("[")]
+            results.setdefault(parts[0], []).append(os.path.splitext(os.path.basename(parts[1]))[0])
+    tr.write_line("")
+    for k, r in sorted(results.items()):
+        tr.write_line("{}: {}".format(k, ", ".join(r)))
+
 
 @pytest.fixture(scope="session")
 def langid(request):
@@ -54,6 +73,8 @@ def pytest_generate_tests(metafunc):
     metafunc.parametrize("langid", vals, indirect=True)
 
 def pytest_configure(config):
+    # config._inicache["console_output_style"] = "classic"
     config.option.verbose -= 1              # equivalent to one -q, so can be overridden
-    if config.option.tbstyle == "auto":     # equivalent to --tb=short. Use --tb=long to override
-        config.option.tbstyle = "short"
+    #tr = LDMLTerminalReporter(config, sys.stdout)
+    #config.pluginmanager.unregister(config.pluginmanager.getplugin("terminalreporter"))
+    #config.pluginmanager.register(tr, "terminalreporter")

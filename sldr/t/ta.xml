@@ -6,11 +6,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 
 Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/ for derived annotations.
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="ta"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="IN" script="Taml" source="cldr"/>
 		</special>
 	</identity>
@@ -8034,7 +8034,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		</listPattern>
 	</listPatterns>
 	<collations>
-		<collation type="standard" references="University of Mardas, Tamil Lexicon" sil:modified="true">
+		<collation type="standard" references="University of Mardas, Tamil Lexicon" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[normalization on]
 				[reorder Taml Deva Beng Guru Gujr Orya Telu Knda Mlym Sinh]
@@ -8246,20 +8246,4 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<casingItem type="currencyName_count">titlecase</casingItem>
 		</casingData>
 	</metadata>
-	<special>
-		<sil:external-resources>
-			<sil:kbd id="basic_kbdintam" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdintam/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="basic_kbdtam99" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdtam99/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="ekwtamil99uni" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/ekwtamil99uni/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="nlci_tamil_winscript" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/nlci_tamil_winscript/download/kmp</sil:url>
-			</sil:kbd>
-		</sil:external-resources>
-	</special>
 </ldml>

@@ -6,11 +6,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 
 Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/ for derived annotations.
 -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<version number="$Revision$"/>
 		<language type="kn"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="IN" script="Knda" source="cldr"/>
 		</special>
 	</identity>
@@ -7740,14 +7740,14 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		</listPattern>
 	</listPatterns>
 	<collations>
-		<collation type="standard" references="Kittel: Kannada-English Dictionary ISBN:8120600495" sil:modified="true">
+		<collation type="standard" references="Kittel: Kannada-English Dictionary ISBN:8120600495" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[normalization on]
 				[reorder Knda Deva Beng Guru Gujr Orya Taml Telu Mlym Sinh]
 				&ಔ<ಂ<ಃ<ೱ<ೲ
 			]]></cr>
 		</collation>
-		<collation type="traditional" references="Kittel: Kannada-English Dictionary ISBN:8120600495" sil:modified="true">
+		<collation type="traditional" references="Kittel: Kannada-English Dictionary ISBN:8120600495" sil:modified="true" xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<cr><![CDATA[
 				[normalization on]
 				[reorder Knda Deva Beng Guru Gujr Orya Taml Telu Mlym Sinh]
@@ -8563,19 +8563,13 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		<featureName type="tnum">ಕೋಷ್ಟಕ ಸಂಖ್ಯೆಗಳು</featureName>
 		<featureName type="zero">ಸ್ಲ್ಯಾಷ್ ಮಾಡಿದ ಶೂನ್ಯ</featureName>
 	</typographicNames>
-	<special>
+	<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 		<sil:external-resources>
 			<sil:fontrole type="default">
 				<sil:font isGraphite="false" name="Noto Sans Kannada">
 					<sil:url>https://wirl.api.sil.org/NotoSansKannada</sil:url>
 				</sil:font>
 			</sil:fontrole>
-			<sil:kbd id="basic_kbdinkan" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdinkan/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="nlci_kannada_winscript" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/nlci_kannada_winscript/download/kmp</sil:url>
-			</sil:kbd>
 		</sil:external-resources>
 	</special>
 </ldml>
