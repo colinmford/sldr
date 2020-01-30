@@ -2,7 +2,7 @@
 
 import argparse, os, re, datetime, sys, csv
 from palaso.sldr.ldml import Ldml, getldml
-from palaso.langtags import LangTags, LangTag
+from langtag import langtag, lookup
 from xml.etree import ElementTree as et
 from multiprocessing import Pool
 
@@ -97,6 +97,8 @@ def locale_stats(loc, lt):
         'Target-Plurals': ''
     }
     l = getldml(loc, args.indir)
+    if l is None:
+        return ({}, False)
     s = l.find('.//sil:identity')
     iscldr = s.get('source', '') if s is not None else ""
     if len(l.root) < 2:
@@ -122,7 +124,6 @@ def getstats(lt, xpaths, levels, vars, info, skip=False):
 
 levelnames = ['core', 'posix', 'minimal', 'basic', 'moderate', 'modern']
 vars = {}
-lts = LangTags()
 calendar_prefs = {}
 levels = {}
 currencies = {}
@@ -151,17 +152,17 @@ if args.supplemental:
             currencies[r] = c.get('iso4217')
             break
 
-reseng = locale_stats('en', lts['en'])[0]
+reseng = locale_stats('en', lookup('en'))[0]
 
 def doit(loc):
     if loc == 'qaz':
-        lt = LangTag("qaz-Latn-001")
+        lt = langtag("qaz-Latn-001")
     else:
-        lt = lts.get(loc.replace("_", "-"), None)
-    if lt is None:
-        return (loc, {}, False)
+        lt = lookup(loc.replace("_", "-"), default="")
+    if lt == "":
+        return (loc, {}, False, "")
     (res, iscldr) = locale_stats(loc, lt)
-    return (loc, res, iscldr)
+    return (loc, res, iscldr, getattr(lt, 'iso639_3', ""))
 
 if not args.single:
     pool = Pool()
@@ -173,11 +174,16 @@ else:
 
 outfile = open(args.outfile, "w") if args.outfile else sys.stdout
 outcsv = csv.writer(outfile)
-outcsv.writerow(['langtag', 'source'] + levelnames)
+outcsv.writerow(['langtag', 'source'] + levelnames + ['score', 'iso639-3'])
 
 for r in sorted(results, key=lambda x:(-sum(100. * x[1].get(k, 0)/reseng.get(k) for k in levelnames), x[0])):
     if len(r[1]):
-        outcsv.writerow([r[0], r[2]] + ["{:.2f}".format(100. * r[1].get(k, 0) / reseng.get(k)) for k in levelnames])
+        score = 0.
+        for k in levelnames:
+            p = r[1].get(k, 0) * 1. / reseng.get(k)
+            score += 1. if p > 0.9 else p
+        score = "{:.3g}".format(score)
+        outcsv.writerow([r[0], r[2]] + ["{:.2f}".format(100. * r[1].get(k, 0) / reseng.get(k)) for k in levelnames] + [score, r[3]])
 
 if args.outfile:
     outfile.close()
