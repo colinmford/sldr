@@ -159,18 +159,10 @@
 	<special>
 		<sil:external-resources>
 			<sil:font name="Lateef Lateef KasLow" size="1.4" types="default"/>
-			<sil:kbd id="balochi_inpage" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/balochi_inpage/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="balochi_persian" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/balochi_persian/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="balochi_phonetic" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/balochi_phonetic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="balochi_urdu" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/balochi_urdu/download/kmp</sil:url>
-			</sil:kbd>
+			
+			
+			
+			
 		</sil:external-resources>
 	</special>
 </ldml>

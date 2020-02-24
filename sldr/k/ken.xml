@@ -102,12 +102,8 @@
 	<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 		<sil:external-resources>
 			<sil:font name="Charis SIL" size="1.1" types="default"/>
-			<sil:kbd id="sil_cameroon_azerty" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_cameroon_azerty/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_cameroon_qwerty" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_cameroon_qwerty/download/kmp</sil:url>
-			</sil:kbd>
+			
+			
 		</sil:external-resources>
 	</special>
 </ldml>

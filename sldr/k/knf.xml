@@ -378,15 +378,9 @@
 	<special>
 		<sil:external-resources>
 			<sil:font name="Charis SIL" size="1.1" types="default"/>
-			<sil:kbd id="sil_euro_latin" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/sil_euro_latin/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_pan_africa_mnemonic" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/sil_pan_africa_mnemonic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_pan_africa_positional" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/sil_pan_africa_positional/download/kmp</sil:url>
-			</sil:kbd>
+			
+			
+			
 		</sil:external-resources>
 	</special>
 </ldml>

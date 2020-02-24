@@ -15,9 +15,7 @@
 	</characters>
 	<special>
 		<sil:external-resources>
-			<sil:kbd id="btl_kenya" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/btl_kenya/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>

@@ -26,9 +26,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 	</numbers>
 	<special>
 		<sil:external-resources>
-			<sil:kbd id="libtralo" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/libtralo/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>

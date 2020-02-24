@@ -167,24 +167,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 	</numbers>
 	<special>
 		<sil:external-resources>
-			<sil:kbd id="aramaic_hebrew" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/aramaic_hebrew/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="basic_kbdsyr1" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdsyr1/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="basic_kbdsyr2" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdsyr2/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="syriac_arabic" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/syriac_arabic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="syriac_aramaic" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/syriac_aramaic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="syriac_phonetic" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/syriac_phonetic/download/kmp</sil:url>
-			</sil:kbd>
+			
+			
+			
+			
+			
+			
 		</sil:external-resources>
 	</special>
 </ldml>

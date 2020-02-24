@@ -15,18 +15,10 @@
 			<sil:font name="Quivira">
 				<sil:url>https://wirl.api.sil.org/Quivira</sil:url>
 			</sil:font>
-			<sil:kbd id="basic_kbdlisub" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdlisub/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="basic_kbdlisus" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdlisus/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_lisu_basic" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_lisu_basic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_lisu_standard" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_lisu_standard/download/kmp</sil:url>
-			</sil:kbd>
+			
+			
+			
+			
 		</sil:external-resources>
 	</special>
 </ldml>

@@ -31,9 +31,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 	</numbers>
 	<special>
 		<sil:external-resources>
-			<sil:kbd id="basic_kbdmonmo" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdmonmo/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>

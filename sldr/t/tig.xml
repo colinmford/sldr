@@ -511,12 +511,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 	</numbers>
 	<special>
 		<sil:external-resources>
-			<sil:kbd id="sil_ethiopic" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_ethiopic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_ethiopic_power_g" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_ethiopic_power_g/download/kmp</sil:url>
-			</sil:kbd>
+			
+			
 		</sil:external-resources>
 	</special>
 </ldml>

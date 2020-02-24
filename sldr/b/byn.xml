@@ -512,9 +512,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 	</numbers>
 	<special>
 		<sil:external-resources>
-			<sil:kbd id="gff_blin" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/gff_blin/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>

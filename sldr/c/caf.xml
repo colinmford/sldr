@@ -122,12 +122,8 @@
 	<special>
 		<sil:external-resources>
 			<sil:font name="Charis SIL"/>
-			<sil:kbd id="fv_dakelh" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/fv_dakelh/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="fv_natwits" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/fv_natwits/download/kmp</sil:url>
-			</sil:kbd>
+			
+			
 		</sil:external-resources>
 	</special>
 </ldml>

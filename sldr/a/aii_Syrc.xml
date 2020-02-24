@@ -263,18 +263,10 @@
 	<special>
 		<sil:external-resources>
 			<sil:font name="East Syriac Marcus" size="1.55" types="default"/>
-			<sil:kbd id="aramaic_hebrew" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/aramaic_hebrew/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="syriac_arabic" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/syriac_arabic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="syriac_aramaic" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/syriac_aramaic/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="syriac_phonetic" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/syriac_phonetic/download/kmp</sil:url>
-			</sil:kbd>
+			
+			
+			
+			
 		</sil:external-resources>
 	</special>
 </ldml>

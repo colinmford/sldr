@@ -101,12 +101,8 @@
 			<sil:kbd id="mywine" type="kmn">
 				<sil:url>https://wirl.scripts.sil.org/mywinekmn</sil:url>
 			</sil:kbd>
-			<sil:kbd id="shan" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/shan/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_shan" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_shan/download/kmp</sil:url>
-			</sil:kbd>
+			
+			
 		</sil:external-resources>
 	</special>
 </ldml>

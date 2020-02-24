@@ -124,9 +124,7 @@
 	<special>
 		<sil:external-resources>
 			<sil:font name="Verdana" size="0.7" types="default"/>
-			<sil:kbd id="fv_anicinapemi8in" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/fv_anicinapemi8in/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>

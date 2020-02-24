@@ -152,9 +152,7 @@
 	<special>
 		<sil:external-resources>
 			<sil:font name="Charis SIL"/>
-			<sil:kbd id="basic_kbdus" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/basic_kbdus/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>

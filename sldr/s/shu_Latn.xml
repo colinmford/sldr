@@ -16,12 +16,8 @@
 	</characters>
 	<special>
 		<sil:external-resources>
-			<sil:kbd id="sil_cameroon_qwerty" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_cameroon_qwerty/download/kmp</sil:url>
-			</sil:kbd>
-			<sil:kbd id="sil_tchad" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_tchad/download/kmp</sil:url>
-			</sil:kbd>
+			
+			
 		</sil:external-resources>
 	</special>
 </ldml>

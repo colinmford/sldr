@@ -26,9 +26,7 @@
 	</characters>
 	<special>
 		<sil:external-resources>
-			<sil:kbd id="sil_kayah_kali" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/sil_kayah_kali/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>

@@ -106,9 +106,7 @@
 	<special>
 		<sil:external-resources>
 			<sil:font name="Charis SIL"/>
-			<sil:kbd id="tohono_oodham" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/tohono_oodham/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>

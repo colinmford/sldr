@@ -166,9 +166,7 @@
 	<special>
 		<sil:external-resources>
 			<sil:font name="Doulos SIL" size="1.1" types="default"/>
-			<sil:kbd id="el_naija" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/el_naija/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>

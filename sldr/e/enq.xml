@@ -15,9 +15,7 @@
 	</characters>
 	<special>
 		<sil:external-resources>
-			<sil:kbd id="enga" type="kmp">
-				<sil:url draft="generated">https://keyman.com/go/keyboard/enga/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>

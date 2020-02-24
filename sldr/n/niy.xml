@@ -158,9 +158,7 @@
 	<special>
 		<sil:external-resources>
 			<sil:font name="Charis SIL"/>
-			<sil:kbd id="sil_eastern_congo" type="kmp">
-				<sil:url>https://keyman.com/go/keyboard/sil_eastern_congo/download/kmp</sil:url>
-			</sil:kbd>
+			
 		</sil:external-resources>
 	</special>
 </ldml>
